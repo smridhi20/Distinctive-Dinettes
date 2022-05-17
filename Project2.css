@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    width: 100%;
+    height: 10%;
+    background:saddlebrown;
+    position: fixed;
+    z-index:1;
+  }
+  ul{
+    list-style-type: none;
+  }
+  ul li{
+    float: left;
+    width: 140px;
+    font-size: 20px; 
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+  }
+  ul li a{
+    text-decoration: none;
+    color:beige;
+  }
+  ul li a:hover{
+    background-color: white;
+    
+  }
+  .sec1{
+    padding-top: 80px;
+    background-color:floralwhite;
+    text-align: center;
+  }
+  #p2{
+    color:maroon;
+    margin-bottom: 20px;
+    font-size: 70px; 
+    
+  }
+  #p1{
+    color:peru;
+    margin-bottom: 10px;
+  }
+  #p3{
+    color:lightcoral;
+    font-size: 40px;
+    font-style: italic;
+    
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+  
+  
+  #s{
+  color:black;
+  text-decoration:none;
+  }
+  
+  .heading-2{
+      color:rgb(66, 7, 17);
+      text-align:center;
+      font-size:50px;
+      font-style:bold;
+      font-family:'ubuntu',sans-serif;
+      margin-top: 40px;
+      background-color: floralwhite;
+  }
+  .container{
+      
+      width:1290px;
+      height:1200px;
+      border:5px solid darkred;
+      margin:42px;
+      background-color: floralwhite;
+   
+  }
+  .col{
+      box-shadow: 0 .5rem 1rem rgb(68, 13, 13);
+      background-color:mistyrose;
+      height: 60px;
+      width:80px;
+      padding:44px ;
+      margin:18px;
+      border:4px dashed indianred;
+      font-size: 15px;
+      float:left;
+      text-align:center;
+      }
+  .heading{
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(66, 7, 17);
+    margin-top: 30px;
+    background-color: floralwhite;
+  }
+  .heading span{
+    color: black;
+  }
+  
+   .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin: 80px;
+  }
+  .box-container .box{
+    height: 300px;
+    display: flex;
+    flex:1 1 20rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(68, 13, 13);
+    border: .2rem solid rgb(66, 7, 17);
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  .box-container .box .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:-100%; left:0;
+    transition: all 0.5s;
+  }
+  .box-container .box .content{
+    background-color:bisque;
+    padding: 2rem;
+  }
+  .box-container .box .content img{
+    margin: 1.5rem 0;
+  }
+  .box-container .box .content h3{
+    font-size: 1rem;
+    color: rgb(65, 25, 25);
+    padding: 1rem 0;
+  }
+  .box-container .box:hover .image{
+    top:0;
+  }
+  
+  
+  .btn{
+  
+    padding:6px 16px;
+    margin:4px 2px;
+    border:3px solid white;
+    border-radius:6px;
+    }
+    .btn-dark{
+    
+      color:black;
+      border:3px solid rosybrown;
+      margin:8px;
+    }
+      
+    .contact{
+      background:url(" https://img.freepik.com/free-photo/contact-us_36325-2135.jpg?size=626&ext=jpg");
+      opacity:0.5px;
+        background-size:cover;
+    }
+    .text-center{
+      text-align:center;
+      padding-top:20px;
+      font-family:'ubuntu',sans-serif;
+      font-size:40px;
+    }
+      
+    .form{
+        font-size:20px;
+      max-width:500px;
+      margin: 25px auto;
+    }
+    .form-input{
+      margin:5px;
+      width:100%;
+        padding:4px 2px;
+        font-size:18px;
+        border: 2px rgb(168, 106, 106) solid;
+        border-radius: 6px;
+      
+    }

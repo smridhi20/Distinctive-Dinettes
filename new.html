@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="getFibonacci()">Get Fibonacci</button>
+</body>
+<script type="text/javascript">
+function getFibonacci() {
+const number = parseInt(prompt('Enter the number of terms: '));
+let n1 = 0, n2 = 1, nextTerm;
+
+document.write('Fibonacci Series: <br>');
+
+for (let i = 1; i <= number; i++) {
+    document.write(n2 + ", ");
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+}
+}
+</script>
+</html>
